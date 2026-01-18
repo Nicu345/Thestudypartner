@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Programs Marketplace | FAQ</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html"><span class="logo">P</span><span>Programs Marketplace</span></a>
+      <nav class="navlinks">
+        <a data-nav href="index.html">Home</a>
+        <a data-nav href="catalog.html">Catalog</a>
+        <a data-nav href="about.html">About</a>
+        <a data-nav href="faq.html">FAQ</a>
+        <a data-nav href="contact.html" class="btn">Request brochure</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<div id="toast" class="toast"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="sectionHead">
+      <div><h2>FAQ</h2><p>Quick answers to the most common questions.</p></div>
+      <a class="btn primary" href="contact.html">Request brochure</a>
+    </div>
+
+    <div class="split">
+      <div class="panel">
+        <h3 style="margin:0 0 8px">Do you award the degrees?</h3>
+        <p class="lead">No. Degrees are awarded by the partner universities. We provide the marketplace experience and brochure request flow.</p>
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px">Is everything 100% online?</h3>
+        <p class="lead">Many programs are fully online; some can be hybrid. Use the format filter in the catalog.</p>
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px">Can tuition change?</h3>
+        <p class="lead">Yes. Tuition can change by academic year. Always confirm final details with the university.</p>
+      </div>
+      <div class="panel">
+        <h3 style="margin:0 0 8px">How does the brochure request work?</h3>
+        <p class="lead">You enter your contact details. Your team (or automation) sends program materials and offers a short consultation.</p>
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px">Do you offer scholarships?</h3>
+        <p class="lead">Scholarships depend on each university. Add official links and eligibility rules program-by-program.</p>
+        <div class="hr"></div>
+        <h3 style="margin:0 0 8px">What do I need to apply?</h3>
+        <p class="lead">Requirements vary (degrees, transcripts, references, writing sample, experience). See each program page for a checklist.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footerGrid">
+      <div class="panel" style="background:rgba(255,255,255,.03);box-shadow:none">
+        <div class="brand" style="margin-bottom:10px"><span class="logo">P</span><span>Programs Marketplace</span></div>
+        <p style="margin:0;color:rgba(169,182,211,.92);line-height:1.6">
+          A clean catalog for online degrees across partner universities — with fast comparison and a simple brochure request flow.
+        </p>
+        <div class="hr"></div>
+        <div class="fine">© <span id="year"></span> Programs Marketplace. All trademarks belong to their respective owners.</div>
+      </div>
+      <div class="panel" style="background:rgba(255,255,255,.03);box-shadow:none">
+        <h3 style="margin:0 0 8px">Quick links</h3>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="pill" href="catalog.html">Browse programs</a>
+          <a class="pill" href="contact.html">Request brochure</a>
+          <a class="pill" href="faq.html">FAQ</a>
+          <a class="pill" href="about.html">Partner institutions</a>
+        </div>
+        <div class="hr"></div>
+        <div class="fine">Tuition and admissions can change. Confirm final details directly with the university before applying.</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+<script src="app.js"></script>
+</body>
+</html>
